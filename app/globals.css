@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --color-primary: #0d9488;
+  --color-primary-dark: #0f766e;
+  --color-secondary: #f59e0b;
+  --color-background: #ffffff;
+  --color-foreground: #111827;
+  --color-muted: #6b7280;
+  --color-muted-foreground: #9ca3af;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
